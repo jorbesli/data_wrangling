@@ -44,7 +44,7 @@ dataset$product_tv <- ifelse(dataset$product_category == "TV", 1, 0)
 dataset$product_laptop <- ifelse(dataset$product_category == "Laptop", 1, 0)
 dataset$product_tablet <- ifelse(dataset$product_category == "Tablet", 1, 0)
 
-# Submit the project on Github
-# Include the code in "refine.r" file, "refine_original.csv" and "refine_clean.csv"
+# 6: Submit the project on Github
+# Run the code and create the output file "refine_clean". 
 write.csv2(dataset, file = "refine_clean.csv")
 
