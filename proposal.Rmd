@@ -1,0 +1,33 @@
+---
+title: "Project Proposal"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+-The following is the proposal for capstone project using R Markdown see <http://rmarkdown.rstudio.com>.  
+
+**What is the problem you want to solve?**
+
+The general problem is that software development companies might have a clear idea on the significance of different types of software architectural styles. Hence, the specific problem that companies need to understand the popularity of these software architectural styles.
+
+**Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?**
+
+The potential client for this project could be software development companies, or research agencies. Based upon the data analysis, organiziations could gain a clear understanding on the usage of the different architechtural styles for software development, among various level of software developers.
+
+-**What data are you going to use for this? How will you acquire this data?**
+
+The data are available via Kaggle <http://www.kaggle.com> in a single dataset with various updated versions. These datasets are publicly available for downloading.
+
+**In brief, outline your approach to solving this problem (knowing that this might change later).**
+
+The variables of the project are software architechtural styles, software developers' job experiences, and their education levels. The data analysis will include linear regression and ranking, as well as relevant graph for data visualization. 
+
+**What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.**
+
+The deliverables of the project include R code, a report (possibly be written by R markdown).
+
+
